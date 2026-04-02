@@ -530,34 +530,13 @@
         <p class="contact-subtitle">
           Whether you are navigating a career transition, refining your professional story, or strengthening a hiring strategy.
         </p>
-        <div class="contact-info">
-          <a href="mailto:TriciaForchetti@gmail.com">TriciaForchetti@gmail.com</a>
-          <span>|</span>
-          <a href="tel:+13016060914">(301) 606-0914</a>
-        </div>
       </div>
     </div>
 
-    <div id="contact-form-wrapper" class="fade-in" data-delay="0.2">
-      <div class="contact-grid">
-        <input class="contact-input" placeholder="Your Name" id="form-name" />
-        <input class="contact-input" type="email" placeholder="Your Email" id="form-email" />
-      </div>
-      <select class="contact-input contact-select" id="form-service" style="margin-bottom: 20px;">
-        <option value="" disabled selected>Select a Service</option>
-        <option value="career">Career Strategy &amp; Coaching</option>
-        <option value="resume">Resume &amp; LinkedIn Optimization</option>
-        <option value="talent">Talent Acquisition Consulting</option>
-        <option value="leadership">Leadership Hiring Strategy</option>
-        <option value="other">Something Else</option>
-      </select>
-      <textarea class="contact-input contact-textarea" placeholder="Tell me about your situation..." rows="5" id="form-message" style="margin-bottom: 28px;"></textarea>
-      <button class="contact-submit" type="button" onclick="submitForm()">Send Message</button>
-    </div>
-
-    <div class="contact-thanks" id="contact-thanks">
-      <h3>Thank You</h3>
-      <p>I&#39;ll be in touch within 24 hours.</p>
+    <div class="fade-in" data-delay="0.2" style="text-align: center;">
+      <a href="mailto:TriciaForchetti@gmail.com?subject=Portfolio%20Inquiry" class="btn-primary" style="display: inline-block;">
+        Send Me an Email
+      </a>
     </div>
 
     <div class="fade-in" data-delay="0.4" style="margin-top: 56px; text-align: center;">
@@ -629,11 +608,6 @@ var observer = new IntersectionObserver(function(entries) {
 
 fadeEls.forEach(function(el) { observer.observe(el); });
 
-// Contact form
-function submitForm() {
-  document.getElementById('contact-form-wrapper').style.display = 'none';
-  document.getElementById('contact-thanks').classList.add('show');
-}
 </script>
 
 </body>
