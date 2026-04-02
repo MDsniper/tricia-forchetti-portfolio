@@ -14,24 +14,23 @@
 
 | Item | Description | Amount |
 |------|-------------|--------|
-| Portfolio Website | Custom-designed single-page portfolio site including responsive layout, dark mode, scroll animations, mobile navigation, and all content sections (About, Services, Experience, Expertise, Contact) | $300.00 |
-| Domain Registration | 2-year registration of **triciaforchetti.com** via Cloudflare | $22.00 |
-| Hosting & Deployment | Cloudflare Workers setup, deployment, and hosting (included through April 2027) | Included |
+| Portfolio Website | Custom-designed single-page portfolio site including responsive layout, dark mode, scroll animations, mobile navigation, and all content sections (About, Services, Experience, Expertise, Contact) | **Complimentary** |
+| Domain Registration | 2-year registration of **triciaforchetti.com** via Cloudflare | $25.00 |
+| Hosting & Deployment | Cloudflare Workers hosting — free for the first year (through April 2027) | **Complimentary** |
 
 ---
 
 | | |
 |---|---|
-| **Subtotal** | $322.00 |
-| **Total Due** | **$322.00** |
+| **Subtotal** | $25.00 |
+| **Total Due** | **$25.00** |
 
 ---
 
 ## Notes
 
-- Standard rate for a custom single-page site ranges from $300 to $500 depending on complexity and features.
+- Website design and development provided complimentary in exchange for permission to use this site as a portfolio reference for future clients.
 - Domain registration covers two years from date of purchase. Renewal cost will apply after that period.
-- Hosting is included for the first year (through April 2027). After that period, a monthly or annual hosting fee will apply. Pricing will be provided before any charges begin.
+- Hosting is complimentary for the first year (through April 2027). After that period, a hosting fee will apply. Pricing will be provided before any charges begin.
 - **Included updates:** Up to 3 content changes per month at no charge (text edits, image swaps, link updates).
-- **Additional changes:** $25/hour for content updates, $50/hour for design or feature changes (new sections, layout work, added functionality). Standard rates are $50–$150/hour depending on scope.
-- Site updates or content changes can be requested as needed.
+- **Additional changes:** $25/hour for content updates, $50/hour for design or feature changes (new sections, layout work, added functionality).
