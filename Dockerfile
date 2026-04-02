@@ -3,6 +3,7 @@ FROM golang:1.23-alpine AS build
 WORKDIR /app
 COPY go.mod ./
 COPY main.go ./
+COPY site/ ./site/
 COPY templates/ ./templates/
 COPY static/ ./static/
 

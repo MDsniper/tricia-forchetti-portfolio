@@ -5,7 +5,7 @@
 *.pdf
 release
 vendor
-app.js
-index.html
-nginx.conf
-tricia-forchetti-portfolio.jsx
+dist
+cmd
+wrangler.toml
+node_modules
