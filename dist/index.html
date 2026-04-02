@@ -5,7 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tricia Forchetti | Talent Acquisition Consultant</title>
   <meta name="description" content="Talent acquisition consulting, career coaching, and resume strategy for organizations and professionals." />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet" />
+  <style>
+    /* Self-hosted fonts — no external requests (GDPR compliant) */
+    @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 400; font-display: swap; src: url('static/fonts/playfair-display-400.woff2') format('woff2'); }
+    @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 600; font-display: swap; src: url('static/fonts/playfair-display-600.woff2') format('woff2'); }
+    @font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 700; font-display: swap; src: url('static/fonts/playfair-display-700.woff2') format('woff2'); }
+    @font-face { font-family: 'Playfair Display'; font-style: italic; font-weight: 400; font-display: swap; src: url('static/fonts/playfair-display-400-italic.woff2') format('woff2'); }
+    @font-face { font-family: 'Playfair Display'; font-style: italic; font-weight: 600; font-display: swap; src: url('static/fonts/playfair-display-600-italic.woff2') format('woff2'); }
+    @font-face { font-family: 'Cormorant Garamond'; font-style: normal; font-weight: 400; font-display: swap; src: url('static/fonts/cormorant-garamond-400.woff2') format('woff2'); }
+    @font-face { font-family: 'Cormorant Garamond'; font-style: normal; font-weight: 500; font-display: swap; src: url('static/fonts/cormorant-garamond-500.woff2') format('woff2'); }
+    @font-face { font-family: 'Cormorant Garamond'; font-style: normal; font-weight: 600; font-display: swap; src: url('static/fonts/cormorant-garamond-600.woff2') format('woff2'); }
+    @font-face { font-family: 'Cormorant Garamond'; font-style: normal; font-weight: 700; font-display: swap; src: url('static/fonts/cormorant-garamond-700.woff2') format('woff2'); }
+    @font-face { font-family: 'Cormorant Garamond'; font-style: italic; font-weight: 400; font-display: swap; src: url('static/fonts/cormorant-garamond-400-italic.woff2') format('woff2'); }
+    @font-face { font-family: 'Cormorant Garamond'; font-style: italic; font-weight: 500; font-display: swap; src: url('static/fonts/cormorant-garamond-500-italic.woff2') format('woff2'); }
+  </style>
   <style>
     :root {
       --bg-light: #FAF7F2;
@@ -359,12 +372,27 @@
     @media (min-width: 769px) {
       .nav-hamburger { display: none !important; }
     }
+    .skip-link {
+      position: absolute;
+      top: -40px;
+      left: 0;
+      background: #1A1A2E;
+      color: #C6A664;
+      padding: 8px 16px;
+      z-index: 9999;
+      font-size: 14px;
+      text-decoration: none;
+      border-radius: 0 0 4px 0;
+    }
+    .skip-link:focus { top: 0; }
   </style>
 </head>
 <body>
 
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
 <!-- Nav -->
-<nav class="nav" id="nav">
+<nav class="nav" id="nav" aria-label="Main navigation">
   <div class="nav-inner">
     <div class="nav-brand">
       <a href="#hero" style="text-decoration: none;"><span class="nav-brand-name">Tricia Forchetti,</span></a>
@@ -392,6 +420,9 @@
     <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle dark mode" style="align-self: flex-start;">&#9790;</button>
   </div>
 </nav>
+
+<!-- Main Content -->
+<main id="main-content">
 
 <!-- Hero -->
 <section class="hero" id="hero">
@@ -553,10 +584,10 @@
           <span class="timeline-period">Jul 2022 – Mar 2026</span>
         </div>
         <p class="timeline-role">Lead Recruiter, Professional Recruitment — Disney Experiences</p>
-        <p class="timeline-highlight"><span class="timeline-bullet">&#9679;</span>Led full-cycle professional recruitment for Disney Experiences Commercial Strategy teams.</p>
-        <p class="timeline-highlight"><span class="timeline-bullet">&#9679;</span>Served as the exclusive lead recruiter for Manager-to-Director hiring within the leadership pipeline.</p>
-        <p class="timeline-highlight"><span class="timeline-bullet">&#9679;</span>Partnered closely with hiring leaders and HR business partners to align recruiting strategy with business goals.</p>
-        <p class="timeline-highlight"><span class="timeline-bullet">&#9679;</span>Reported talent metrics and workforce trends while building diverse pipelines through LinkedIn Recruiter and Indeed.</p>
+        <p class="timeline-highlight"><span class="timeline-bullet" aria-hidden="true">&#9679;</span>Led full-cycle professional recruitment for Disney Experiences Commercial Strategy teams.</p>
+        <p class="timeline-highlight"><span class="timeline-bullet" aria-hidden="true">&#9679;</span>Served as the exclusive lead recruiter for Manager-to-Director hiring within the leadership pipeline.</p>
+        <p class="timeline-highlight"><span class="timeline-bullet" aria-hidden="true">&#9679;</span>Partnered closely with hiring leaders and HR business partners to align recruiting strategy with business goals.</p>
+        <p class="timeline-highlight"><span class="timeline-bullet" aria-hidden="true">&#9679;</span>Reported talent metrics and workforce trends while building diverse pipelines through LinkedIn Recruiter and Indeed.</p>
       </div>
       <div class="fade-in timeline-item" data-delay="0.30">
         <div class="timeline-dot"></div>
@@ -565,10 +596,10 @@
           <span class="timeline-period">Jan 2022 – Jun 2022</span>
         </div>
         <p class="timeline-role">Senior Recruiter — RPO Division</p>
-        <p class="timeline-highlight"><span class="timeline-bullet">&#9679;</span>Delivered full-cycle recruitment for high-volume global clients within a recruitment process outsourcing model.</p>
-        <p class="timeline-highlight"><span class="timeline-bullet">&#9679;</span>Ran talent strategy sessions to define role requirements and sourcing priorities.</p>
-        <p class="timeline-highlight"><span class="timeline-bullet">&#9679;</span>Sourced and screened qualified candidates while maintaining focus on contractual recruiting metrics.</p>
-        <p class="timeline-highlight"><span class="timeline-bullet">&#9679;</span>Used social recruiting, database mining, and advanced search techniques to attract global talent pools.</p>
+        <p class="timeline-highlight"><span class="timeline-bullet" aria-hidden="true">&#9679;</span>Delivered full-cycle recruitment for high-volume global clients within a recruitment process outsourcing model.</p>
+        <p class="timeline-highlight"><span class="timeline-bullet" aria-hidden="true">&#9679;</span>Ran talent strategy sessions to define role requirements and sourcing priorities.</p>
+        <p class="timeline-highlight"><span class="timeline-bullet" aria-hidden="true">&#9679;</span>Sourced and screened qualified candidates while maintaining focus on contractual recruiting metrics.</p>
+        <p class="timeline-highlight"><span class="timeline-bullet" aria-hidden="true">&#9679;</span>Used social recruiting, database mining, and advanced search techniques to attract global talent pools.</p>
       </div>
       <div class="fade-in timeline-item" data-delay="0.45">
         <div class="timeline-dot"></div>
@@ -577,10 +608,10 @@
           <span class="timeline-period">Oct 2015 – Dec 2021</span>
         </div>
         <p class="timeline-role">Talent Acquisition Manager</p>
-        <p class="timeline-highlight"><span class="timeline-bullet">&#9679;</span>Owned talent acquisition for the organization&#39;s most profitable business unit.</p>
-        <p class="timeline-highlight"><span class="timeline-bullet">&#9679;</span>Led, coached, and guided four virtual recruiters and two coordinators.</p>
-        <p class="timeline-highlight"><span class="timeline-bullet">&#9679;</span>Oversaw full-cycle hiring for high-turnover, supervisory, and executive roles.</p>
-        <p class="timeline-highlight"><span class="timeline-bullet">&#9679;</span>Created interactive training that reinforced Federal and State Labor Law compliance for new supervisors.</p>
+        <p class="timeline-highlight"><span class="timeline-bullet" aria-hidden="true">&#9679;</span>Owned talent acquisition for the organization&#39;s most profitable business unit.</p>
+        <p class="timeline-highlight"><span class="timeline-bullet" aria-hidden="true">&#9679;</span>Led, coached, and guided four virtual recruiters and two coordinators.</p>
+        <p class="timeline-highlight"><span class="timeline-bullet" aria-hidden="true">&#9679;</span>Oversaw full-cycle hiring for high-turnover, supervisory, and executive roles.</p>
+        <p class="timeline-highlight"><span class="timeline-bullet" aria-hidden="true">&#9679;</span>Created interactive training that reinforced Federal and State Labor Law compliance for new supervisors.</p>
       </div>
       <div class="fade-in timeline-item" data-delay="0.60">
         <div class="timeline-dot"></div>
@@ -589,10 +620,10 @@
           <span class="timeline-period">1992 – 2000, 2014 – 2015</span>
         </div>
         <p class="timeline-role">On-Site Manager, Lockheed Martin Corporation</p>
-        <p class="timeline-highlight"><span class="timeline-bullet">&#9679;</span>Secured and executed an RPO contract with Lockheed Martin headquarters worth more than $2M.</p>
-        <p class="timeline-highlight"><span class="timeline-bullet">&#9679;</span>Reduced vacancies by 20% by identifying and attracting critical shortage personnel.</p>
-        <p class="timeline-highlight"><span class="timeline-bullet">&#9679;</span>Managed recruitment, screening, testing, and selection across 300+ open requisitions.</p>
-        <p class="timeline-highlight"><span class="timeline-bullet">&#9679;</span>Led recruiters and reported metrics including time-to-hire, offer acceptance, candidates per hire, and churn rate.</p>
+        <p class="timeline-highlight"><span class="timeline-bullet" aria-hidden="true">&#9679;</span>Secured and executed an RPO contract with Lockheed Martin headquarters worth more than $2M.</p>
+        <p class="timeline-highlight"><span class="timeline-bullet" aria-hidden="true">&#9679;</span>Reduced vacancies by 20% by identifying and attracting critical shortage personnel.</p>
+        <p class="timeline-highlight"><span class="timeline-bullet" aria-hidden="true">&#9679;</span>Managed recruitment, screening, testing, and selection across 300+ open requisitions.</p>
+        <p class="timeline-highlight"><span class="timeline-bullet" aria-hidden="true">&#9679;</span>Led recruiters and reported metrics including time-to-hire, offer acceptance, candidates per hire, and churn rate.</p>
       </div>
     </div>
   </div>
@@ -698,12 +729,14 @@
     </div>
 
     <div class="fade-in" data-delay="0.4" style="margin-top: 56px; text-align: center;">
-      <a href="https://www.linkedin.com/in/triciaforchetti" target="_blank" rel="noopener noreferrer" class="linkedin-link">
+      <a href="https://www.linkedin.com/in/triciaforchetti" target="_blank" rel="noopener noreferrer" class="linkedin-link" aria-label="Connect with Tricia Forchetti on LinkedIn (opens in new tab)">
         Connect on LinkedIn &rarr;
       </a>
     </div>
   </div>
 </section>
+
+</main>
 
 <!-- Footer -->
 <footer class="footer">
