@@ -446,24 +446,36 @@
           Today, I advise companies on hiring strategy while helping professionals navigate career pivots, growth, and market positioning with confidence and clarity.
         </p>
         <div class="about-tags">
-          {{range .Tags}}
-          <span class="about-tag">{{.}}</span>
-          {{end}}
+          <span class="about-tag">RACR Certified</span>
+          <span class="about-tag">Open to Relocation</span>
+          <span class="about-tag">English (Native)</span>
+          <span class="about-tag">French</span>
+          <span class="about-tag">Spanish</span>
         </div>
         <div class="about-education">
           <p class="about-education-label">Education</p>
-          <p class="about-education-school">{{.Education.School}}</p>
-          <p class="about-education-detail">{{.Education.Degree}} &mdash; {{.Education.Location}}</p>
+          <p class="about-education-school">University of Lynchburg</p>
+          <p class="about-education-detail">Bachelor of Arts &mdash; Lynchburg, Virginia</p>
         </div>
       </div>
       <div class="fade-in" data-delay="0.35">
         <div class="stats-grid">
-          {{range .Stats}}
           <div class="stat-card">
-            <p class="stat-number">{{.Number}}</p>
-            <p class="stat-label">{{.Label}}</p>
+            <p class="stat-number">30+</p>
+            <p class="stat-label">Years in Talent Acquisition</p>
           </div>
-          {{end}}
+          <div class="stat-card">
+            <p class="stat-number">3</p>
+            <p class="stat-label">Languages Spoken</p>
+          </div>
+          <div class="stat-card">
+            <p class="stat-number">$2M+</p>
+            <p class="stat-label">Contract Value Secured</p>
+          </div>
+          <div class="stat-card">
+            <p class="stat-number">300+</p>
+            <p class="stat-label">Open Requisitions Managed</p>
+          </div>
         </div>
       </div>
     </div>
@@ -481,20 +493,45 @@
       </div>
     </div>
     <div class="services-grid">
-      {{range $i, $s := .Services}}
-      <div class="fade-in" data-delay="{{printf "%.2f" (mul (add $i 1) 0.15)}}">
+      <div class="fade-in" data-delay="0.15">
         <div class="service-card">
-          <span class="service-icon">{{$s.Icon}}</span>
-          <h3 class="service-title">{{$s.Title}}</h3>
-          <p class="service-desc">{{$s.Description}}</p>
+          <span class="service-icon">&#10022;</span>
+          <h3 class="service-title">Career Strategy &amp; Coaching</h3>
+          <p class="service-desc">Focused guidance for professionals navigating pivots, layoffs, leadership growth, or repositioning. I help translate experience into a clear, compelling next move.</p>
           <div class="service-features">
-            {{range $s.Features}}
-            <p class="service-feature"><span class="service-feature-dot"></span>{{.}}</p>
-            {{end}}
+            <p class="service-feature"><span class="service-feature-dot"></span>Career Pivot Strategy</p>
+            <p class="service-feature"><span class="service-feature-dot"></span>Interview Preparation</p>
+            <p class="service-feature"><span class="service-feature-dot"></span>Personal Positioning</p>
+            <p class="service-feature"><span class="service-feature-dot"></span>Offer &amp; Salary Guidance</p>
           </div>
         </div>
       </div>
-      {{end}}
+      <div class="fade-in" data-delay="0.30">
+        <div class="service-card">
+          <span class="service-icon">&#9670;</span>
+          <h3 class="service-title">Resume &amp; LinkedIn Optimization</h3>
+          <p class="service-desc">I build concise, ATS-aware career materials that help hiring leaders quickly understand your value and give recruiters stronger reasons to respond.</p>
+          <div class="service-features">
+            <p class="service-feature"><span class="service-feature-dot"></span>ATS-Aligned Resume Refresh</p>
+            <p class="service-feature"><span class="service-feature-dot"></span>LinkedIn Profile Rewrite</p>
+            <p class="service-feature"><span class="service-feature-dot"></span>Executive Bio Support</p>
+            <p class="service-feature"><span class="service-feature-dot"></span>Targeted Messaging</p>
+          </div>
+        </div>
+      </div>
+      <div class="fade-in" data-delay="0.45">
+        <div class="service-card">
+          <span class="service-icon">&#11045;</span>
+          <h3 class="service-title">Talent Acquisition Consulting</h3>
+          <p class="service-desc">I advise organizations on hiring strategy, full-cycle recruitment, talent pipeline development, and metrics that improve decision-making and candidate experience.</p>
+          <div class="service-features">
+            <p class="service-feature"><span class="service-feature-dot"></span>Talent Strategy Sessions</p>
+            <p class="service-feature"><span class="service-feature-dot"></span>Job Description Refinement</p>
+            <p class="service-feature"><span class="service-feature-dot"></span>Hiring Process Guidance</p>
+            <p class="service-feature"><span class="service-feature-dot"></span>Recruiting Metrics &amp; Reporting</p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -509,19 +546,54 @@
     </div>
     <div class="timeline">
       <div class="timeline-line"></div>
-      {{range $i, $r := .Roles}}
-      <div class="fade-in timeline-item" data-delay="{{printf "%.2f" (mul (add $i 1) 0.15)}}">
+      <div class="fade-in timeline-item" data-delay="0.15">
         <div class="timeline-dot"></div>
         <div class="timeline-header">
-          <h3 class="timeline-company">{{$r.Company}}</h3>
-          <span class="timeline-period">{{$r.Period}}</span>
+          <h3 class="timeline-company">The Walt Disney Company</h3>
+          <span class="timeline-period">Jul 2022 – Mar 2026</span>
         </div>
-        <p class="timeline-role">{{$r.Role}}</p>
-        {{range $r.Highlights}}
-        <p class="timeline-highlight"><span class="timeline-bullet">&#9679;</span>{{.}}</p>
-        {{end}}
+        <p class="timeline-role">Lead Recruiter, Professional Recruitment — Disney Experiences</p>
+        <p class="timeline-highlight"><span class="timeline-bullet">&#9679;</span>Led full-cycle professional recruitment for Disney Experiences Commercial Strategy teams.</p>
+        <p class="timeline-highlight"><span class="timeline-bullet">&#9679;</span>Served as the exclusive lead recruiter for Manager-to-Director hiring within the leadership pipeline.</p>
+        <p class="timeline-highlight"><span class="timeline-bullet">&#9679;</span>Partnered closely with hiring leaders and HR business partners to align recruiting strategy with business goals.</p>
+        <p class="timeline-highlight"><span class="timeline-bullet">&#9679;</span>Reported talent metrics and workforce trends while building diverse pipelines through LinkedIn Recruiter and Indeed.</p>
       </div>
-      {{end}}
+      <div class="fade-in timeline-item" data-delay="0.30">
+        <div class="timeline-dot"></div>
+        <div class="timeline-header">
+          <h3 class="timeline-company">Korn Ferry</h3>
+          <span class="timeline-period">Jan 2022 – Jun 2022</span>
+        </div>
+        <p class="timeline-role">Senior Recruiter — RPO Division</p>
+        <p class="timeline-highlight"><span class="timeline-bullet">&#9679;</span>Delivered full-cycle recruitment for high-volume global clients within a recruitment process outsourcing model.</p>
+        <p class="timeline-highlight"><span class="timeline-bullet">&#9679;</span>Ran talent strategy sessions to define role requirements and sourcing priorities.</p>
+        <p class="timeline-highlight"><span class="timeline-bullet">&#9679;</span>Sourced and screened qualified candidates while maintaining focus on contractual recruiting metrics.</p>
+        <p class="timeline-highlight"><span class="timeline-bullet">&#9679;</span>Used social recruiting, database mining, and advanced search techniques to attract global talent pools.</p>
+      </div>
+      <div class="fade-in timeline-item" data-delay="0.45">
+        <div class="timeline-dot"></div>
+        <div class="timeline-header">
+          <h3 class="timeline-company">Sheppard Pratt Health System</h3>
+          <span class="timeline-period">Oct 2015 – Dec 2021</span>
+        </div>
+        <p class="timeline-role">Talent Acquisition Manager → Senior Recruiter</p>
+        <p class="timeline-highlight"><span class="timeline-bullet">&#9679;</span>Owned talent acquisition for the organization&#39;s most profitable business unit.</p>
+        <p class="timeline-highlight"><span class="timeline-bullet">&#9679;</span>Led, coached, and guided four virtual recruiters and two coordinators.</p>
+        <p class="timeline-highlight"><span class="timeline-bullet">&#9679;</span>Oversaw full-cycle hiring for high-turnover, supervisory, and executive roles.</p>
+        <p class="timeline-highlight"><span class="timeline-bullet">&#9679;</span>Created interactive training that reinforced Federal and State Labor Law compliance for new supervisors.</p>
+      </div>
+      <div class="fade-in timeline-item" data-delay="0.60">
+        <div class="timeline-dot"></div>
+        <div class="timeline-header">
+          <h3 class="timeline-company">The Adecco Group</h3>
+          <span class="timeline-period">1992 – 2000, 2014 – 2015</span>
+        </div>
+        <p class="timeline-role">On-Site Manager, Lockheed Martin Corporation → Recruiter</p>
+        <p class="timeline-highlight"><span class="timeline-bullet">&#9679;</span>Secured and executed an RPO contract with Lockheed Martin headquarters worth more than $2M.</p>
+        <p class="timeline-highlight"><span class="timeline-bullet">&#9679;</span>Reduced vacancies by 20% by identifying and attracting critical shortage personnel.</p>
+        <p class="timeline-highlight"><span class="timeline-bullet">&#9679;</span>Managed recruitment, screening, testing, and selection across 300+ open requisitions.</p>
+        <p class="timeline-highlight"><span class="timeline-bullet">&#9679;</span>Led recruiters and reported metrics including time-to-hire, offer acceptance, candidates per hire, and churn rate.</p>
+      </div>
     </div>
   </div>
 </section>
@@ -537,18 +609,45 @@
       </div>
     </div>
     <div class="services-grid">
-      {{range $i, $c := .Categories}}
-      <div class="fade-in" data-delay="{{printf "%.2f" (mul (add $i 1) 0.15)}}">
+      <div class="fade-in" data-delay="0.15">
         <div class="expertise-card">
-          <h3 class="expertise-card-title">{{$c.Title}}</h3>
+          <h3 class="expertise-card-title">Core Expertise</h3>
           <div class="expertise-tags">
-            {{range $c.Items}}
-            <span class="expertise-tag">{{.}}</span>
-            {{end}}
+            <span class="expertise-tag">People Leadership</span>
+            <span class="expertise-tag">Talent Management</span>
+            <span class="expertise-tag">Human Resource Management</span>
+            <span class="expertise-tag">Full-Cycle Recruitment</span>
+            <span class="expertise-tag">Talent Strategy Sessions</span>
+            <span class="expertise-tag">Policy Implementation</span>
           </div>
         </div>
       </div>
-      {{end}}
+      <div class="fade-in" data-delay="0.30">
+        <div class="expertise-card">
+          <h3 class="expertise-card-title">Software &amp; Platforms</h3>
+          <div class="expertise-tags">
+            <span class="expertise-tag">LinkedIn Recruiter</span>
+            <span class="expertise-tag">Indeed Recruiter</span>
+            <span class="expertise-tag">Applicant Pro</span>
+            <span class="expertise-tag">Position Manager</span>
+            <span class="expertise-tag">Workday Talent Management</span>
+            <span class="expertise-tag">WebEx</span>
+          </div>
+        </div>
+      </div>
+      <div class="fade-in" data-delay="0.45">
+        <div class="expertise-card">
+          <h3 class="expertise-card-title">Technology</h3>
+          <div class="expertise-tags">
+            <span class="expertise-tag">Microsoft 365 Copilot</span>
+            <span class="expertise-tag">Excel</span>
+            <span class="expertise-tag">PowerPoint</span>
+            <span class="expertise-tag">Teams</span>
+            <span class="expertise-tag">Google Workspace</span>
+            <span class="expertise-tag">Smartsheet &amp; Zoom</span>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -561,11 +660,18 @@
       <h2 class="section-title">Practical Talent Guidance for <span>Both Sides of the Table</span></h2>
       <div class="gold-line" style="width: 48px; margin: 0 auto;"></div>
       <div class="value-grid">
-        {{range .Pillars}}
         <div class="value-card">
-          <p>{{.}}</p>
+          <p>Advise companies on talent acquisition strategy and hiring processes.</p>
         </div>
-        {{end}}
+        <div class="value-card">
+          <p>Help leaders make smarter, more effective hiring decisions.</p>
+        </div>
+        <div class="value-card">
+          <p>Guide professionals through career pivots, growth, and market positioning.</p>
+        </div>
+        <div class="value-card">
+          <p>Translate complex talent challenges into clear, actionable solutions.</p>
+        </div>
       </div>
     </div>
   </div>
@@ -606,7 +712,7 @@
       <span class="footer-brand">Tricia Forchetti</span>
       <span class="footer-tag">RACR</span>
     </div>
-    <p class="footer-text">&copy; {{.Year}} Tricia Forchetti. All rights reserved.</p>
+    <p class="footer-text">&copy; 2026 Tricia Forchetti. All rights reserved.</p>
     <p class="footer-text">Frederick, Maryland &bull; Open to Relocation</p>
   </div>
 </footer>
