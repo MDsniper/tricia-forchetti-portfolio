@@ -54,6 +54,14 @@ Since all of the content is in one file (`dist/index.html`), common updates are 
 
 Just reach out and let me know what you'd like changed.
 
+**What's included each month:**
+- Up to 3 content changes at no charge (text edits, image swaps, link updates)
+
+**If you need more than that:**
+- Content updates: $25/hour
+- Design or feature changes (new sections, layout work, new functionality): $50/hour
+- Standard industry rates for this kind of work range from $50–$150/hour
+
 ---
 
 ## What You're Paying For
@@ -62,7 +70,9 @@ Just reach out and let me know what you'd like changed.
 |---|---|
 | Custom portfolio website (design + development + deployment) | $300 |
 | Domain name (2 years) | $22 |
-| Hosting (Cloudflare) | Free |
+| Hosting (included through April 2027) | Included |
 | **Total** | **$322** |
+
+After April 2027, a small monthly or annual hosting fee will apply. Pricing will be provided before any charges begin.
 
 Standard pricing for a custom single-page website like this is $300–$500 depending on complexity. If you know anyone who needs a similar site, feel free to share my info.

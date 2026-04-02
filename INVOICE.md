@@ -32,4 +32,6 @@
 - Standard rate for a custom single-page site ranges from $300 to $500 depending on complexity and features.
 - Domain registration covers two years from date of purchase. Renewal cost will apply after that period.
 - Hosting is included for the first year (through April 2027). After that period, a monthly or annual hosting fee will apply. Pricing will be provided before any charges begin.
+- **Included updates:** Up to 3 content changes per month at no charge (text edits, image swaps, link updates).
+- **Additional changes:** $25/hour for content updates, $50/hour for design or feature changes (new sections, layout work, added functionality). Standard rates are $50–$150/hour depending on scope.
 - Site updates or content changes can be requested as needed.
