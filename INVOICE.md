@@ -14,16 +14,17 @@
 
 | Item | Description | Amount |
 |------|-------------|--------|
-| Portfolio Website | Custom-designed single-page portfolio site including responsive layout, dark mode, scroll animations, mobile navigation, and all content sections (About, Services, Experience, Expertise, Contact) | **Complimentary** |
-| Domain Registration | 2-year registration of **triciaforchetti.com** via Cloudflare | $25.00 |
+| Portfolio Website | Custom-designed single-page portfolio site including responsive layout, dark mode, scroll animations, mobile navigation, and all content sections (About, Services, Experience, Expertise, Contact) | ~~$300.00~~ **Complimentary** |
+| Domain Registration | 2-year registration of **triciaforchetti.com** via Cloudflare | ~~$25.00~~ **Paid — Natasha Williams (Zelle)** |
 | Hosting & Deployment | Cloudflare Workers hosting — free for the first year (through April 2027) | **Complimentary** |
 
 ---
 
 | | |
 |---|---|
-| **Subtotal** | $25.00 |
-| **Total Due** | **$25.00** |
+| **Subtotal** | $325.00 |
+| **Discounts / Payments** | -$325.00 |
+| **Total Due** | **$0.00** |
 
 ---
 
