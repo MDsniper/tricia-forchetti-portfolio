@@ -1,11 +1,18 @@
-FROM nginx:1.27-alpine
+FROM golang:1.23-alpine AS build
 
-COPY nginx.conf /etc/nginx/conf.d/default.conf
-COPY index.html /usr/share/nginx/html/index.html
-COPY app.js /usr/share/nginx/html/app.js
-COPY ["Tricia Forchetti.jpeg", "/usr/share/nginx/html/Tricia Forchetti.jpeg"]
-COPY vendor /usr/share/nginx/html/vendor
+WORKDIR /app
+COPY go.mod ./
+COPY main.go ./
+COPY templates/ ./templates/
+COPY static/ ./static/
+
+RUN CGO_ENABLED=0 go build -o server .
+
+FROM alpine:3.20
+
+WORKDIR /app
+COPY --from=build /app/server .
 
 EXPOSE 8080
 
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["./server"]
