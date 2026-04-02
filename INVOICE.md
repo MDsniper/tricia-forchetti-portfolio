@@ -36,6 +36,6 @@
 - Domain registration covers two years from date of purchase. Renewal cost will apply after that period.
 - **Domain ownership:** triciaforchetti.com is owned outright by Tricia Forchetti, having been paid in full by Natasha Williams. Williams Web Development will retain management of the domain on her behalf until she requests a transfer. Domain transfers typically take 2–5 business days to complete.
 - Hosting is complimentary for the first year (through April 2027). After that period, a hosting fee will apply. Pricing will be provided before any charges begin.
-- **Included updates:** Up to 10 content changes per month at no charge (text edits, image swaps, link updates).
+- **Included updates:** Up to 5 content changes per month at no charge (text edits, image swaps, link updates).
 - **Additional changes:** $25/hour for content updates, $50/hour for design or feature changes (new sections, layout work, added functionality).
-- **Referral bonus:** $50 credit for any paying client referred by Tricia Forchetti. Portfolio sites range from $300–$500 depending on scope.
+- **Referral bonus:** $50 cash referral fee for any paying client referred by Tricia Forchetti. Applies to paid engagements only; pro bono or complimentary projects are excluded. Portfolio sites range from $300–$500 depending on scope.
